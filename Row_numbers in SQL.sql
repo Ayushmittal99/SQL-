@@ -66,3 +66,5 @@ from employees ;
 -- in windows func.   rank , densrank , row number
 select *, dense_rank() over(partition by department order by salary )
 from employees;
+
+select * from employee;
